@@ -1,0 +1,94 @@
+name: Jingcai Report Enrichment
+
+on:
+  repository_dispatch:
+    types:
+      - jingcai_social_images
+      - jingcai_report_enrichment
+  workflow_dispatch:
+    inputs:
+      payload_file:
+        description: "本地调试用 payload 文件路径"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: enrich-jingcai-pages
+  cancel-in-progress: false
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Resolve base path
+        id: base
+        run: |
+          REPO_NAME="${GITHUB_REPOSITORY#*/}"
+          if [[ "$REPO_NAME" == *.github.io ]]; then
+            echo "site_base=" >> "$GITHUB_OUTPUT"
+          else
+            echo "site_base=/$REPO_NAME" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Merge webhook payload
+        env:
+          GITHUB_EVENT_PATH: ${{ github.event_path }}
+        run: |
+          if [[ -n "${{ inputs.payload_file }}" ]]; then
+            node scripts/merge-dispatch-payload.mjs --file "${{ inputs.payload_file }}"
+          else
+            node scripts/merge-dispatch-payload.mjs
+          fi
+
+      - name: Rebuild related report if missing
+        env:
+          DQD_AUTHORIZATION: ${{ secrets.DQD_AUTHORIZATION }}
+          DQD_COOKIE: ${{ secrets.DQD_COOKIE }}
+          GITHUB_EVENT_PATH: ${{ github.event_path }}
+        run: |
+          REPORT_DATE=$(node -e "const fs=require('fs'); const raw=JSON.parse(fs.readFileSync(process.env.GITHUB_EVENT_PATH,'utf8')); const payload=raw.client_payload || raw; process.stdout.write(payload.date || '')")
+          if [[ -n "$REPORT_DATE" && ! -f "data/reports/$REPORT_DATE.json" ]]; then
+            node scripts/build-daily-reports.mjs --date "$REPORT_DATE"
+          fi
+
+      - name: Rebuild site
+        env:
+          SITE_BASE_PATH: ${{ steps.base.outputs.site_base }}
+        run: node scripts/build-site.mjs
+
+      - name: Commit enriched files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/enrichments data/reports docs
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "build: enrich jingcai report assets"
+            git push
+          fi
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: enrich
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
