@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-03T08:08:27.788Z",
+  "generatedAt": "2026-09-03T10:36:47.809Z",
   "timezone": "Asia/Shanghai",
   "date": "2026-09-02",
   "filter": {
@@ -500,7 +500,7 @@
         },
         "marketValue": {
           "home": 13700000,
-          "away": 17630000
+          "away": 18430000
         },
         "stats": {
           "控球率": {
@@ -1466,7 +1466,7 @@
           "away": 11
         },
         "marketValue": {
-          "home": 20400000,
+          "home": 18800000,
           "away": 20550000
         },
         "stats": {
@@ -3391,7 +3391,7 @@
           "away": 3
         },
         "marketValue": {
-          "home": 52350000,
+          "home": 58150000,
           "away": 41280000
         },
         "stats": {
@@ -3801,7 +3801,7 @@
         },
         "marketValue": {
           "home": 73950000,
-          "away": 28100000
+          "away": 29300000
         },
         "stats": {
           "控球率": {
