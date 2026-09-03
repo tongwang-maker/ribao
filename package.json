@@ -1,0 +1,16 @@
+{
+  "name": "ribao",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Static GitHub Pages site for daily jingcai result reports",
+  "engines": {
+    "node": ">=18.18"
+  },
+  "scripts": {
+    "build:reports": "node scripts/build-daily-reports.mjs",
+    "build:site": "node scripts/build-site.mjs",
+    "build": "node scripts/build-daily-reports.mjs && node scripts/build-site.mjs",
+    "dispatch:merge": "node scripts/merge-dispatch-payload.mjs"
+  }
+}

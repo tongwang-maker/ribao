@@ -1,0 +1,47 @@
+{
+  "name": "api-json-webhook-site",
+  "timezone": "Asia/Shanghai",
+  "source": {
+    "provider": "dongqiudi",
+    "schedule_endpoint": "https://api.dongqiudi.com/data/tab/new/lottery",
+    "situation_endpoint": "https://api.dongqiudi.com/mobile/match/situation/{matchId}",
+    "filter": {
+      "cmp_type": "soccer",
+      "zc_range": "001-025",
+      "status": "Played"
+    }
+  },
+  "normalize": {
+    "output": "data/reports/YYYY-MM-DD.json",
+    "match_fields": [
+      "tag",
+      "matchId",
+      "competition",
+      "kickoff",
+      "score",
+      "stats",
+      "expectation",
+      "article",
+      "image"
+    ]
+  },
+  "enrichment": {
+    "input": "repository_dispatch",
+    "event_types": [
+      "jingcai_social_images",
+      "jingcai_report_enrichment"
+    ],
+    "payload_file": "data/enrichments/YYYY-MM-DD.json",
+    "match_merge_keys": [
+      "matchId",
+      "image",
+      "expectation",
+      "notes"
+    ]
+  },
+  "publish": {
+    "builder": "scripts/build-site.mjs",
+    "output": "docs/",
+    "hosting": "GitHub Pages"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "event_type": "jingcai_social_images",
+  "client_payload": {
+    "date": "2026-09-02",
+    "matches": [
+      {
+        "matchId": "54479852",
+        "image": {
+          "url": "https://cdn.example.com/cerezo-goal.jpg",
+          "source": "x",
+          "postUrl": "https://x.com/example/status/1234567890",
+          "alt": "大阪樱花进球庆祝",
+          "caption": "大阪樱花官方社媒发布的进球庆祝图"
+        },
+        "expectation": {
+          "publicLean": "away",
+          "note": "赛前更多声音看好柏太阳神，但大阪樱花把主场效率先兑现成了结果。"
+        },
+        "notes": "优先保留进球或对抗图，不用赛果海报。"
+      }
+    ]
+  }
+}

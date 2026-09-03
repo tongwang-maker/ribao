@@ -1,0 +1,30 @@
+{
+  "matches": [
+    {
+      "matchId": "54479852",
+      "preferredAccounts": [
+        {
+          "platform": "x",
+          "account": "@crz_official",
+          "team": "大阪樱花"
+        },
+        {
+          "platform": "instagram",
+          "account": "@cerezo_osaka",
+          "team": "大阪樱花"
+        },
+        {
+          "platform": "weibo",
+          "account": "大阪樱花官方微博",
+          "team": "大阪樱花"
+        }
+      ],
+      "imageHints": [
+        "goal",
+        "celebration",
+        "duel",
+        "save"
+      ]
+    }
+  ]
+}
