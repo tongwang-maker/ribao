@@ -3,13 +3,14 @@ name: Bootstrap ribao
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
   restore:
-    if: github.event.head_commit.message != 'build: restore ribao project'
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.head_commit.message != 'build: restore ribao project' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -25,5 +26,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
+          if git diff --cached --quiet; then
+            echo "No restored changes to commit"
+            exit 0
+          fi
           git commit -m "build: restore ribao project"
           git push
