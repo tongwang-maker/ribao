@@ -3,21 +3,21 @@ name: Daily Jingcai Reports
 
 on:
   schedule:
-    # 06:00 UTC = 14:00 Asia/Shanghai, after the previous day's matches finish.
-    - cron: "0 6 * * *"
+    # 03:00 UTC = 11:00 Asia/Shanghai, after the previous day's matches finish.
+    - cron: "0 3 * * *"
   workflow_dispatch:
     inputs:
       date:
-        description: "生成指定日期（YYYY-MM-DD），留空则默认昨天"
+        description: "生成指定日期（YYYY-MM-DD），留空则按北京时间生成前一天"
         required: false
         type: string
       min_tag:
-        description: "起始编号"
+        description: "起始编号（默认 001）"
         required: false
         default: "1"
         type: string
       max_tag:
-        description: "结束编号"
+        description: "结束编号（默认 025）"
         required: false
         default: "25"
         type: string
