@@ -1,0 +1,4165 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-25T08:24:22.452Z",
+  "timezone": "Asia/Shanghai",
+  "date": "2026-09-24",
+  "filter": {
+    "issueWeekday": "周四",
+    "minTag": 1,
+    "maxTag": 25,
+    "count": 8
+  },
+  "source": {
+    "provider": "dongqiudi",
+    "scheduleEndpoint": "https://api.dongqiudi.com/data/tab/new/lottery",
+    "situationEndpoint": "https://api.dongqiudi.com/mobile/match/situation/{matchId}"
+  },
+  "matches": [
+    {
+      "cmpType": "soccer",
+      "tag": "周四001",
+      "tagSeq": 1,
+      "tagCode": "001",
+      "matchId": "54603481",
+      "competition": "友谊赛",
+      "round": "九月",
+      "kickoff": "2026-09-24 10:05:00",
+      "finishedAt": "2026-09-24 12:04:30",
+      "date": "2026-09-24",
+      "status": "Played",
+      "homeTeam": {
+        "id": "50001146",
+        "name": "日本",
+        "logo": "https://sd.qunliao.info/fastdfs3/M00/B5/79/ChOxM1xC2L6AHvC4AAAEdawnP9Q689.png",
+        "rank": 17
+      },
+      "awayTeam": {
+        "id": "50002026",
+        "name": "乌拉圭",
+        "logo": "https://sd.qunliao.info/fastdfs3/M00/B5/80/ChOxM1xC2UyAFIQpAAAJFbiniWQ532.png",
+        "rank": 20
+      },
+      "score": {
+        "home": 3,
+        "away": 1,
+        "halfHome": 1,
+        "halfAway": 1,
+        "penaltyHome": null,
+        "penaltyAway": null,
+        "extraHome": null,
+        "extraAway": null
+      },
+      "surfaceStats": {
+        "cornersHome": 2,
+        "cornersAway": 4,
+        "yellowHome": 2,
+        "yellowAway": 2,
+        "redHome": null,
+        "redAway": null
+      },
+      "expectationSignals": {
+        "oddsHome": "",
+        "oddsDraw": "",
+        "oddsAway": "",
+        "handicapText": "",
+        "goalsText": "",
+        "tipsNum": 8
+      },
+      "raw": {
+        "scoreInfo": "",
+        "oddTip": "半(1:1) 角(2:4)",
+        "liveUrl": "https://m.dongqiudi.com/matchDetail/54603481/live"
+      },
+      "detail": {
+        "matchId": "54603481",
+        "competition": "友谊赛",
+        "venue": "宫城一之滨球场",
+        "weather": "阴",
+        "temperature": "26°C",
+        "attendance": null,
+        "ranks": {
+          "home": 17,
+          "away": 20
+        },
+        "marketValue": {
+          "home": 310000000,
+          "away": 294400000
+        },
+        "stats": {
+          "控球率": {
+            "home": 50,
+            "away": 50
+          },
+          "角球": {
+            "home": 2,
+            "away": 4
+          },
+          "射门": {
+            "home": 5,
+            "away": 9
+          },
+          "射正": {
+            "home": 3,
+            "away": 6
+          },
+          "射偏": {
+            "home": 1,
+            "away": 2
+          },
+          "被封堵": {
+            "home": 1,
+            "away": 1
+          },
+          "任意球": {
+            "home": 3,
+            "away": 7
+          },
+          "越位": {
+            "home": 0,
+            "away": 1
+          },
+          "犯规": {
+            "home": 7,
+            "away": 3
+          },
+          "黄牌": {
+            "home": 2,
+            "away": 2
+          },
+          "红牌": {
+            "home": 0,
+            "away": 0
+          },
+          "传球": {
+            "home": 224,
+            "away": 226
+          },
+          "传球成功率": {
+            "home": 86,
+            "away": 77
+          },
+          "绝佳机会": {
+            "home": 0,
+            "away": 1
+          },
+          "禁区内射门": {
+            "home": 0,
+            "away": 6
+          },
+          "禁区外射门": {
+            "home": 3,
+            "away": 3
+          },
+          "门将扑救": {
+            "home": 5,
+            "away": 0
+          },
+          "长传": {
+            "home": 22,
+            "away": 33
+          },
+          "长传成功率": {
+            "home": 45,
+            "away": 42
+          },
+          "传中": {
+            "home": 2,
+            "away": 5
+          },
+          "传中成功率": {
+            "home": 0,
+            "away": 40
+          },
+          "过人": {
+            "home": 9,
+            "away": 2
+          },
+          "过人成功率": {
+            "home": 56,
+            "away": 100
+          },
+          "抢断": {
+            "home": 4,
+            "away": 6
+          },
+          "拦截": {
+            "home": 8,
+            "away": 1
+          },
+          "解围": {
+            "home": 12,
+            "away": 4
+          }
+        },
+        "timeline": [
+          {
+            "minute": 11,
+            "home": [
+              {
+                "player": "松木玖生",
+                "icon": "rBUC6GcM116AdCl0AAALvuQV48E236.png",
+                "family": "rBUC6GcM116A"
+              },
+              {
+                "player": "中村敬斗",
+                "icon": "ChMf8FxtCcuAJuluAAAIPutkzyw449.png",
+                "family": "ChMf8FxtCcuA"
+              }
+            ],
+            "away": [],
+            "candidates": []
+          },
+          {
+            "minute": 42,
+            "home": [],
+            "away": [
+              {
+                "player": "马克西-阿劳霍",
+                "icon": "rBUC6GcM116AdCl0AAALvuQV48E236.png",
+                "family": "rBUC6GcM116A"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 45,
+            "home": [],
+            "away": [
+              {
+                "player": "",
+                "icon": "HT.png",
+                "family": "half-time"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 46,
+            "home": [
+              {
+                "player": "镰田大地",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "佐野航大",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "away": [],
+            "candidates": []
+          },
+          {
+            "minute": 63,
+            "home": [
+              {
+                "player": "上田绮世",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "前田大然",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "away": [],
+            "candidates": []
+          },
+          {
+            "minute": 64,
+            "home": [
+              {
+                "player": "铃木淳之介",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "伊东纯也",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "久保建英",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "板仓滉",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "松木玖生",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "堂安律",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "away": [],
+            "candidates": []
+          },
+          {
+            "minute": 67,
+            "home": [
+              {
+                "player": "伊藤洋辉",
+                "icon": "ChOxM1xGg02AL8TeAAAE1p6R8m4139.png",
+                "family": "ChOxM1xGg02A"
+              }
+            ],
+            "away": [],
+            "candidates": []
+          },
+          {
+            "minute": 68,
+            "home": [],
+            "away": [
+              {
+                "player": "萨拉萨尔",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "德阿拉斯卡埃塔",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "希门尼斯",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "布里安-罗德里格斯",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "比尼亚斯",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "阿劳霍",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 73,
+            "home": [
+              {
+                "player": "濑古步梦",
+                "icon": "ChOxM1xGg02AL8TeAAAE1p6R8m4139.png",
+                "family": "ChOxM1xGg02A"
+              }
+            ],
+            "away": [],
+            "candidates": []
+          },
+          {
+            "minute": 75,
+            "home": [],
+            "away": [
+              {
+                "player": "本坦库尔",
+                "icon": "ChOxM1xGg02AL8TeAAAE1p6R8m4139.png",
+                "family": "ChOxM1xGg02A"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 77,
+            "home": [
+              {
+                "player": "相马勇纪",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "田中碧",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "铃木唯人",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "佐野海舟",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "away": [],
+            "candidates": []
+          },
+          {
+            "minute": 79,
+            "home": [],
+            "away": [
+              {
+                "player": "法昆多-贝尔纳尔",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "皮克雷斯",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "本坦库尔",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "胡安-萨纳夫里亚",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 83,
+            "home": [
+              {
+                "player": "盐贝健人",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "中村敬斗",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "away": [],
+            "candidates": []
+          },
+          {
+            "minute": 84,
+            "home": [],
+            "away": [
+              {
+                "player": "佩利斯特里",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "马克西-阿劳霍",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 90,
+            "home": [
+              {
+                "player": "盐贝健人",
+                "icon": "rBUC6GcM116AdCl0AAALvuQV48E236.png",
+                "family": "rBUC6GcM116A"
+              },
+              {
+                "player": "上田绮世",
+                "icon": "rBUC6GcM116AdCl0AAALvuQV48E236.png",
+                "family": "rBUC6GcM116A"
+              },
+              {
+                "player": "伊东纯也",
+                "icon": "ChMf8FxtCcuAJuluAAAIPutkzyw449.png",
+                "family": "ChMf8FxtCcuA"
+              }
+            ],
+            "away": [
+              {
+                "player": "希门尼斯",
+                "icon": "ChOxM1xGg02AL8TeAAAE1p6R8m4139.png",
+                "family": "ChOxM1xGg02A"
+              },
+              {
+                "player": "",
+                "icon": "FT.png",
+                "family": "FT"
+              }
+            ],
+            "candidates": []
+          }
+        ]
+      },
+      "enrichment": {},
+      "expectation": {
+        "level": "aligned",
+        "favoriteSide": "home",
+        "summary": "赛果整体仍在主流预期范围内，但兑现方式并不完全轻松。",
+        "source": "heuristic",
+        "reasons": [
+          "排名"
+        ]
+      },
+      "image": {
+        "status": "pending",
+        "url": "",
+        "alt": "日本 vs 乌拉圭 官方社媒过程图待补充",
+        "source": "pending-webhook",
+        "postUrl": "",
+        "caption": "等待 webhook 注入官方社媒比赛过程图。"
+      },
+      "article": {
+        "title": "001：日本3-1乌拉圭：日本靠效率掌握节奏",
+        "recap": "双方上半场互相试探，胜负在后程才被拉开，日本最终以3-1拿下结果。从数据看，乌拉圭控球50%、射门9比5、射正6比3、绝佳机会1比0，场面并不算完全被压制。",
+        "review": "赛果整体仍在主流预期范围内，但兑现方式并不完全轻松。日本赢在先手和终结效率，领先后把比赛拖进自己熟悉的节奏；乌拉圭虽然数据不差，但高质量机会没能连续兑现。",
+        "format": [
+          "标题",
+          "回顾赛果",
+          "配图",
+          "复盘"
+        ],
+        "styleProfile": "jingcai_result_rag_v1"
+      }
+    },
+    {
+      "cmpType": "soccer",
+      "tag": "周四002",
+      "tagSeq": 2,
+      "tagCode": "002",
+      "matchId": "54606218",
+      "competition": "友谊赛",
+      "round": "九月",
+      "kickoff": "2026-09-24 11:00:00",
+      "finishedAt": "2026-09-24 12:58:04",
+      "date": "2026-09-24",
+      "status": "Played",
+      "homeTeam": {
+        "id": "50001181",
+        "name": "韩国",
+        "logo": "https://sd.qunliao.info/fastdfs3/M00/B5/7A/ChOxM1xC2MSAQaWAAAAL1VFSq5U098.png",
+        "rank": 32
+      },
+      "awayTeam": {
+        "id": "50000510",
+        "name": "厄瓜多尔",
+        "logo": "https://sd.qunliao.info/fastdfs3/M00/B5/75/ChOxM1xC2FSADy_DAAALaURezqo279.png",
+        "rank": 25
+      },
+      "score": {
+        "home": 3,
+        "away": 0,
+        "halfHome": 0,
+        "halfAway": 0,
+        "penaltyHome": null,
+        "penaltyAway": null,
+        "extraHome": null,
+        "extraAway": null
+      },
+      "surfaceStats": {
+        "cornersHome": 2,
+        "cornersAway": 5,
+        "yellowHome": 4,
+        "yellowAway": 5,
+        "redHome": null,
+        "redAway": null
+      },
+      "expectationSignals": {
+        "oddsHome": "",
+        "oddsDraw": "",
+        "oddsAway": "",
+        "handicapText": "",
+        "goalsText": "",
+        "tipsNum": 7
+      },
+      "raw": {
+        "scoreInfo": "",
+        "oddTip": "半(0:0) 角(2:5)",
+        "liveUrl": "https://m.dongqiudi.com/matchDetail/54606218/live"
+      },
+      "detail": {
+        "matchId": "54606218",
+        "competition": "友谊赛",
+        "venue": "水原世界杯球场",
+        "weather": "阴",
+        "temperature": "23°C",
+        "attendance": null,
+        "ranks": {
+          "home": 32,
+          "away": 25
+        },
+        "marketValue": {
+          "home": 146650000,
+          "away": 182250000
+        },
+        "stats": {
+          "控球率": {
+            "home": 59,
+            "away": 41
+          },
+          "角球": {
+            "home": 2,
+            "away": 5
+          },
+          "射门": {
+            "home": 11,
+            "away": 10
+          },
+          "射正": {
+            "home": 5,
+            "away": 3
+          },
+          "射偏": {
+            "home": 5,
+            "away": 3
+          },
+          "被封堵": {
+            "home": 1,
+            "away": 4
+          },
+          "任意球": {
+            "home": 21,
+            "away": 16
+          },
+          "越位": {
+            "home": 1,
+            "away": 1
+          },
+          "犯规": {
+            "home": 16,
+            "away": 21
+          },
+          "黄牌": {
+            "home": 4,
+            "away": 5
+          },
+          "红牌": {
+            "home": 0,
+            "away": 0
+          },
+          "传球": {
+            "home": 495,
+            "away": 336
+          },
+          "传球成功率": {
+            "home": 88,
+            "away": 83
+          },
+          "绝佳机会": {
+            "home": 2,
+            "away": 0
+          },
+          "错失绝佳机会": {
+            "home": 1,
+            "away": 0
+          },
+          "禁区内射门": {
+            "home": 5,
+            "away": 2
+          },
+          "禁区外射门": {
+            "home": 6,
+            "away": 8
+          },
+          "门将扑救": {
+            "home": 4,
+            "away": 2
+          },
+          "长传": {
+            "home": 25,
+            "away": 49
+          },
+          "长传成功率": {
+            "home": 48,
+            "away": 55
+          },
+          "传中": {
+            "home": 9,
+            "away": 11
+          },
+          "传中成功率": {
+            "home": 22,
+            "away": 9
+          },
+          "过人": {
+            "home": 7,
+            "away": 15
+          },
+          "过人成功率": {
+            "home": 43,
+            "away": 60
+          },
+          "抢断": {
+            "home": 10,
+            "away": 13
+          },
+          "拦截": {
+            "home": 8,
+            "away": 13
+          },
+          "解围": {
+            "home": 20,
+            "away": 11
+          }
+        },
+        "timeline": [
+          {
+            "minute": 10,
+            "home": [],
+            "away": [
+              {
+                "player": "波罗索",
+                "icon": "ChOxM1xGg02AL8TeAAAE1p6R8m4139.png",
+                "family": "ChOxM1xGg02A"
+              }
+            ],
+            "candidates": [
+              {
+                "side": "away",
+                "minute": 10,
+                "players": [
+                  "波罗索"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 14,
+            "home": [
+              {
+                "player": "朴镇燮",
+                "icon": "ChOxM1xGg02AL8TeAAAE1p6R8m4139.png",
+                "family": "ChOxM1xGg02A"
+              }
+            ],
+            "away": [],
+            "candidates": [
+              {
+                "side": "home",
+                "minute": 14,
+                "players": [
+                  "朴镇燮"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 21,
+            "home": [],
+            "away": [
+              {
+                "player": "肯尼-阿罗约",
+                "icon": "ChOxM1xGg02AL8TeAAAE1p6R8m4139.png",
+                "family": "ChOxM1xGg02A"
+              }
+            ],
+            "candidates": [
+              {
+                "side": "away",
+                "minute": 21,
+                "players": [
+                  "肯尼-阿罗约"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 31,
+            "home": [],
+            "away": [
+              {
+                "player": "霍尔迪-凯塞多",
+                "icon": "ChOxM1xGg02AL8TeAAAE1p6R8m4139.png",
+                "family": "ChOxM1xGg02A"
+              }
+            ],
+            "candidates": [
+              {
+                "side": "away",
+                "minute": 31,
+                "players": [
+                  "霍尔迪-凯塞多"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 45,
+            "home": [
+              {
+                "player": "李韩汎",
+                "icon": "ChOxM1xGg02AL8TeAAAE1p6R8m4139.png",
+                "family": "ChOxM1xGg02A"
+              }
+            ],
+            "away": [
+              {
+                "player": "埃斯图皮尼安",
+                "icon": "ChOxM1xGg02AL8TeAAAE1p6R8m4139.png",
+                "family": "ChOxM1xGg02A"
+              },
+              {
+                "player": "",
+                "icon": "HT.png",
+                "family": "half-time"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 47,
+            "home": [
+              {
+                "player": "郑承原",
+                "icon": "ChOxM1xGg02AL8TeAAAE1p6R8m4139.png",
+                "family": "ChOxM1xGg02A"
+              }
+            ],
+            "away": [],
+            "candidates": [
+              {
+                "side": "home",
+                "minute": 47,
+                "players": [
+                  "郑承原"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 52,
+            "home": [],
+            "away": [
+              {
+                "player": "安赫洛-普雷西亚多",
+                "icon": "rBUBsmZYGiCANNp1AAAFlodTyIk351.png",
+                "family": "rBUBsmZYGiCA"
+              },
+              {
+                "player": "安赫洛-普雷西亚多",
+                "icon": "ChOxM1xGg02AL8TeAAAE1p6R8m4139.png",
+                "family": "ChOxM1xGg02A"
+              }
+            ],
+            "candidates": [
+              {
+                "side": "away",
+                "minute": 52,
+                "players": [
+                  "安赫洛-普雷西亚多",
+                  "安赫洛-普雷西亚多"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 54,
+            "home": [
+              {
+                "player": "吴贤揆",
+                "icon": "rBUC6GcM116AdCl0AAALvuQV48E236.png",
+                "family": "rBUC6GcM116A"
+              },
+              {
+                "player": "金玟哉",
+                "icon": "ChMf8FxtCcuAJuluAAAIPutkzyw449.png",
+                "family": "ChMf8FxtCcuA"
+              }
+            ],
+            "away": [],
+            "candidates": [
+              {
+                "side": "home",
+                "minute": 54,
+                "players": [
+                  "吴贤揆",
+                  "金玟哉"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 58,
+            "home": [
+              {
+                "player": "孙兴慜",
+                "icon": "rBUC6GcM116AdCl0AAALvuQV48E236.png",
+                "family": "rBUC6GcM116A"
+              }
+            ],
+            "away": [],
+            "candidates": [
+              {
+                "side": "home",
+                "minute": 58,
+                "players": [
+                  "孙兴慜"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 62,
+            "home": [
+              {
+                "player": "李在城",
+                "icon": "ChOxM1xGg02AL8TeAAAE1p6R8m4139.png",
+                "family": "ChOxM1xGg02A"
+              }
+            ],
+            "away": [],
+            "candidates": [
+              {
+                "side": "home",
+                "minute": 62,
+                "players": [
+                  "李在城"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 65,
+            "home": [
+              {
+                "player": "金太炫",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "金奉首",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "李太锡",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "黄喜灿",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "赵玹泽",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "郑承原",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "李韩汎",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "朴镇燮",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "away": [],
+            "candidates": []
+          },
+          {
+            "minute": 66,
+            "home": [],
+            "away": [
+              {
+                "player": "梅尔卡多",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "肯尼-阿罗约",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 67,
+            "home": [],
+            "away": [
+              {
+                "player": "德尼尔-卡斯蒂略",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "胡安-安古洛",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "比特",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "霍尔迪-凯塞多",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 74,
+            "home": [],
+            "away": [
+              {
+                "player": "阿兰-明达",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "尼尔松-安古洛",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 75,
+            "home": [
+              {
+                "player": "赵伟济",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "金旻洙",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "吴世勋",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "金玟哉",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "宋旼奎",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "吴贤揆",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "away": [
+              {
+                "player": "安东尼-巴伦西亚",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "约翰-耶博阿",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 85,
+            "home": [
+              {
+                "player": "李东炅",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "孙兴慜",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "away": [],
+            "candidates": []
+          },
+          {
+            "minute": 86,
+            "home": [
+              {
+                "player": "李东炅",
+                "icon": "rBUC6GcM116AdCl0AAALvuQV48E236.png",
+                "family": "rBUC6GcM116A"
+              },
+              {
+                "player": "金奉首",
+                "icon": "ChMf8FxtCcuAJuluAAAIPutkzyw449.png",
+                "family": "ChMf8FxtCcuA"
+              }
+            ],
+            "away": [],
+            "candidates": [
+              {
+                "side": "home",
+                "minute": 86,
+                "players": [
+                  "李东炅",
+                  "金奉首"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 90,
+            "home": [],
+            "away": [
+              {
+                "player": "",
+                "icon": "FT.png",
+                "family": "FT"
+              }
+            ],
+            "candidates": [
+              {
+                "side": "away",
+                "minute": 90,
+                "players": []
+              }
+            ]
+          }
+        ]
+      },
+      "enrichment": {},
+      "expectation": {
+        "level": "against",
+        "favoriteSide": "away",
+        "summary": "赛果与多数人的赛前想象存在偏差，强势一方没把纸面优势转成结果。",
+        "source": "heuristic",
+        "reasons": [
+          "排名"
+        ]
+      },
+      "image": {
+        "status": "pending",
+        "url": "",
+        "alt": "韩国 vs 厄瓜多尔 官方社媒过程图待补充",
+        "source": "pending-webhook",
+        "postUrl": "",
+        "caption": "等待 webhook 注入官方社媒比赛过程图。"
+      },
+      "article": {
+        "title": "002：韩国3-0厄瓜多尔：韩国把冷门打成了结果",
+        "recap": "双方上半场互相试探，胜负在后程才被拉开，韩国最终以3-0拿下结果。从数据看，厄瓜多尔控球41%、射门10比11、射正3比5、绝佳机会0比2，场面并不算完全被压制。",
+        "review": "赛果与多数人的赛前想象存在偏差，强势一方没把纸面优势转成结果。韩国把有限的优势回合做成了结果，反倒是厄瓜多尔在领先预期或场面基础上没能把握住关键节点。",
+        "format": [
+          "标题",
+          "回顾赛果",
+          "配图",
+          "复盘"
+        ],
+        "styleProfile": "jingcai_result_rag_v1"
+      }
+    },
+    {
+      "cmpType": "soccer",
+      "tag": "周四003",
+      "tagSeq": 3,
+      "tagCode": "003",
+      "matchId": "54601673",
+      "competition": "中国之队邀请赛",
+      "round": "重庆赛",
+      "kickoff": "2026-09-24 11:35:00",
+      "finishedAt": "2026-09-24 13:30:20",
+      "date": "2026-09-24",
+      "status": "Played",
+      "homeTeam": {
+        "id": "50000344",
+        "name": "中国",
+        "logo": "https://sd.qunliao.info/fastdfs3/M00/B5/74/ChOxM1xC2DyASaamAAAEq1PV5Sc240.png",
+        "rank": 91
+      },
+      "awayTeam": {
+        "id": "50001232",
+        "name": "马尔代夫",
+        "logo": "https://sd.qunliao.info/fastdfs3/M00/B5/7A/ChOxM1xC2MuAclOjAAADLLXexC4159.png",
+        "rank": 173
+      },
+      "score": {
+        "home": 3,
+        "away": 0,
+        "halfHome": 0,
+        "halfAway": 0,
+        "penaltyHome": null,
+        "penaltyAway": null,
+        "extraHome": null,
+        "extraAway": null
+      },
+      "surfaceStats": {
+        "cornersHome": 15,
+        "cornersAway": 0,
+        "yellowHome": 1,
+        "yellowAway": null,
+        "redHome": null,
+        "redAway": null
+      },
+      "expectationSignals": {
+        "oddsHome": "",
+        "oddsDraw": "",
+        "oddsAway": "",
+        "handicapText": "",
+        "goalsText": "",
+        "tipsNum": 9
+      },
+      "raw": {
+        "scoreInfo": "",
+        "oddTip": "半(0:0) 角(15:0)",
+        "liveUrl": "https://m.dongqiudi.com/matchDetail/54601673/live"
+      },
+      "detail": {
+        "matchId": "54601673",
+        "competition": "中国之队邀请赛",
+        "venue": "重庆龙兴足球场",
+        "weather": "局部有云",
+        "temperature": "26°C",
+        "attendance": null,
+        "ranks": {
+          "home": 91,
+          "away": 173
+        },
+        "marketValue": {
+          "home": 8050000,
+          "away": 755000
+        },
+        "stats": {
+          "控球率": {
+            "home": 68,
+            "away": 32
+          },
+          "角球": {
+            "home": 15,
+            "away": 0
+          },
+          "射门": {
+            "home": 25,
+            "away": 1
+          },
+          "射正": {
+            "home": 10,
+            "away": 1
+          },
+          "射偏": {
+            "home": 10,
+            "away": 0
+          },
+          "被封堵": {
+            "home": 5,
+            "away": 0
+          },
+          "任意球": {
+            "home": 3,
+            "away": 5
+          },
+          "越位": {
+            "home": 7,
+            "away": 0
+          },
+          "犯规": {
+            "home": 5,
+            "away": 3
+          },
+          "黄牌": {
+            "home": 1,
+            "away": 0
+          },
+          "红牌": {
+            "home": 0,
+            "away": 0
+          },
+          "传球": {
+            "home": 556,
+            "away": 287
+          },
+          "传球成功率": {
+            "home": 87,
+            "away": 69
+          },
+          "绝佳机会": {
+            "home": 7,
+            "away": 0
+          },
+          "错失绝佳机会": {
+            "home": 4,
+            "away": 0
+          },
+          "禁区内射门": {
+            "home": 20,
+            "away": 1
+          },
+          "禁区外射门": {
+            "home": 5,
+            "away": 0
+          },
+          "门将扑救": {
+            "home": 1,
+            "away": 7
+          },
+          "长传": {
+            "home": 65,
+            "away": 72
+          },
+          "长传成功率": {
+            "home": 66,
+            "away": 24
+          },
+          "传中": {
+            "home": 56,
+            "away": 0
+          },
+          "传中成功率": {
+            "home": 25,
+            "away": 0
+          },
+          "过人": {
+            "home": 14,
+            "away": 7
+          },
+          "过人成功率": {
+            "home": 43,
+            "away": 29
+          },
+          "抢断": {
+            "home": 12,
+            "away": 17
+          },
+          "拦截": {
+            "home": 12,
+            "away": 14
+          },
+          "解围": {
+            "home": 6,
+            "away": 47
+          }
+        },
+        "timeline": [
+          {
+            "minute": 8,
+            "home": [
+              {
+                "player": "钟义浩",
+                "icon": "ChOxM1xGg02AL8TeAAAE1p6R8m4139.png",
+                "family": "ChOxM1xGg02A"
+              }
+            ],
+            "away": [],
+            "candidates": [
+              {
+                "side": "home",
+                "minute": 8,
+                "players": [
+                  "钟义浩"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 45,
+            "home": [],
+            "away": [
+              {
+                "player": "",
+                "icon": "HT.png",
+                "family": "half-time"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 46,
+            "home": [
+              {
+                "player": "戴伟浚",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "闫炳良",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "魏震",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "谢文能",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "赵松源(U21)",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "杨铭锐(U21)",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "王庚睿(U21)",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "陈蒲",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "王上源",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "杨明洋",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "刘殿座",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "李扬",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "韩鹏飞",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "韦世豪",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "布尼亚明-阿不都沙拉木(U21)",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "刘洋",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "钟义浩",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "黄嘉辉",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "away": [
+              {
+                "player": "纳萨-纳西尔",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "阿赞-拉希德",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "艾哈迈德-艾哈姆",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "阿卜杜拉-卢斯",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 50,
+            "home": [
+              {
+                "player": "王子铭",
+                "icon": "rBUC6GcM116AdCl0AAALvuQV48E236.png",
+                "family": "rBUC6GcM116A"
+              },
+              {
+                "player": "王上源",
+                "icon": "ChMf8FxtCcuAJuluAAAIPutkzyw449.png",
+                "family": "ChMf8FxtCcuA"
+              }
+            ],
+            "away": [],
+            "candidates": [
+              {
+                "side": "home",
+                "minute": 50,
+                "players": [
+                  "王子铭",
+                  "王上源"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 56,
+            "home": [
+              {
+                "player": "王子铭",
+                "icon": "rBUC6GcM116AdCl0AAALvuQV48E236.png",
+                "family": "rBUC6GcM116A"
+              },
+              {
+                "player": "陈蒲",
+                "icon": "ChMf8FxtCcuAJuluAAAIPutkzyw449.png",
+                "family": "ChMf8FxtCcuA"
+              }
+            ],
+            "away": [],
+            "candidates": [
+              {
+                "side": "home",
+                "minute": 56,
+                "players": [
+                  "王子铭",
+                  "陈蒲"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 60,
+            "home": [
+              {
+                "player": "蒋光太",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "高准翼",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "away": [],
+            "candidates": []
+          },
+          {
+            "minute": 61,
+            "home": [],
+            "away": [
+              {
+                "player": "侯赛因-西法乌",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "艾哈迈德-艾哈姆",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 62,
+            "home": [],
+            "away": [
+              {
+                "player": "阿里-法西尔",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "穆兹德汗-哈桑",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 63,
+            "home": [
+              {
+                "player": "王子铭",
+                "icon": "rBUC6GcM116AdCl0AAALvuQV48E236.png",
+                "family": "rBUC6GcM116A"
+              },
+              {
+                "player": "王庚睿(U21)",
+                "icon": "ChMf8FxtCcuAJuluAAAIPutkzyw449.png",
+                "family": "ChMf8FxtCcuA"
+              }
+            ],
+            "away": [],
+            "candidates": [
+              {
+                "side": "home",
+                "minute": 63,
+                "players": [
+                  "王子铭",
+                  "王庚睿(U21)"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 73,
+            "home": [
+              {
+                "player": "杜月徵(U21)",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "王子铭",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "away": [],
+            "candidates": []
+          },
+          {
+            "minute": 76,
+            "home": [],
+            "away": [
+              {
+                "player": "尼沙姆-拉希德",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "易卜拉欣-埃萨姆",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 90,
+            "home": [],
+            "away": [
+              {
+                "player": "易卜拉欣-马胡迪",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "卡西姆-萨马安",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "纳萨-纳西尔",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "哈桑-埃纳兹",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "",
+                "icon": "FT.png",
+                "family": "FT"
+              }
+            ],
+            "candidates": []
+          }
+        ]
+      },
+      "enrichment": {},
+      "expectation": {
+        "level": "aligned",
+        "favoriteSide": "home",
+        "summary": "赛果整体仍在主流预期范围内，但兑现方式并不完全轻松。",
+        "source": "heuristic",
+        "reasons": [
+          "排名",
+          "身价"
+        ]
+      },
+      "image": {
+        "status": "pending",
+        "url": "",
+        "alt": "中国 vs 马尔代夫 官方社媒过程图待补充",
+        "source": "pending-webhook",
+        "postUrl": "",
+        "caption": "等待 webhook 注入官方社媒比赛过程图。"
+      },
+      "article": {
+        "title": "003：中国3-0马尔代夫：中国先手到位后稳住局面",
+        "recap": "双方上半场互相试探，胜负在后程才被拉开，中国最终以3-0拿下结果。从数据看，马尔代夫控球32%、射门1比25、射正1比10、绝佳机会0比7，场面并不算完全被压制。",
+        "review": "赛果整体仍在主流预期范围内，但兑现方式并不完全轻松。中国一旦拿到先手，比赛管理能力就比较稳定，防线没有给马尔代夫连续冲击同一区域的空间。",
+        "format": [
+          "标题",
+          "回顾赛果",
+          "配图",
+          "复盘"
+        ],
+        "styleProfile": "jingcai_result_rag_v1"
+      }
+    },
+    {
+      "cmpType": "soccer",
+      "tag": "周四004",
+      "tagSeq": 4,
+      "tagCode": "004",
+      "matchId": "54419024",
+      "competition": "欧国联",
+      "round": "B级联赛",
+      "kickoff": "2026-09-24 18:45:00",
+      "finishedAt": "2026-09-24 20:36:39",
+      "date": "2026-09-24",
+      "status": "Played",
+      "homeTeam": {
+        "id": "50012368",
+        "name": "科索沃",
+        "logo": "https://sd.qunliao.info/fastdfs3/M00/B5/6F/ChOxM1xC1ESAZpa-AAAUYClLeaM319.png",
+        "rank": 78
+      },
+      "awayTeam": {
+        "id": "50001009",
+        "name": "爱尔兰",
+        "logo": "https://sd.qunliao.info/fastdfs3/M00/B5/78/ChOxM1xC2KWAaNE4AAAAtt1RVro484.png",
+        "rank": 55
+      },
+      "score": {
+        "home": 1,
+        "away": 0,
+        "halfHome": 0,
+        "halfAway": 0,
+        "penaltyHome": null,
+        "penaltyAway": null,
+        "extraHome": null,
+        "extraAway": null
+      },
+      "surfaceStats": {
+        "cornersHome": 1,
+        "cornersAway": 0,
+        "yellowHome": null,
+        "yellowAway": 2,
+        "redHome": null,
+        "redAway": null
+      },
+      "expectationSignals": {
+        "oddsHome": "",
+        "oddsDraw": "",
+        "oddsAway": "",
+        "handicapText": "",
+        "goalsText": "",
+        "tipsNum": 11
+      },
+      "raw": {
+        "scoreInfo": "",
+        "oddTip": "半(0:0) 角(1:0)",
+        "liveUrl": "https://m.dongqiudi.com/matchDetail/54419024/live"
+      },
+      "detail": {
+        "matchId": "54419024",
+        "competition": "欧国联",
+        "venue": "法迪尔·沃克里体育场",
+        "weather": "阴",
+        "temperature": "13°C",
+        "attendance": null,
+        "ranks": {
+          "home": 78,
+          "away": 55
+        },
+        "marketValue": {
+          "home": 147800000,
+          "away": 188900000
+        },
+        "stats": {
+          "开球": {
+            "home": 1,
+            "away": 0
+          },
+          "控球率": {
+            "home": 57,
+            "away": 43
+          },
+          "角球": {
+            "home": 1,
+            "away": 0
+          },
+          "射门": {
+            "home": 22,
+            "away": 3
+          },
+          "射正": {
+            "home": 8,
+            "away": 1
+          },
+          "射偏": {
+            "home": 8,
+            "away": 2
+          },
+          "被封堵": {
+            "home": 6,
+            "away": 0
+          },
+          "任意球": {
+            "home": 15,
+            "away": 12
+          },
+          "越位": {
+            "home": 2,
+            "away": 0
+          },
+          "犯规": {
+            "home": 12,
+            "away": 15
+          },
+          "黄牌": {
+            "home": 0,
+            "away": 2
+          },
+          "红牌": {
+            "home": 0,
+            "away": 0
+          },
+          "击中门框": {
+            "home": 1,
+            "away": 0
+          },
+          "预期进球(xG)": {
+            "home": 2.74,
+            "away": 0.25
+          },
+          "传球": {
+            "home": 495,
+            "away": 379
+          },
+          "传球成功率": {
+            "home": 82,
+            "away": 77
+          },
+          "绝佳机会": {
+            "home": 3,
+            "away": 1
+          },
+          "错失绝佳机会": {
+            "home": 2,
+            "away": 1
+          },
+          "禁区内射门": {
+            "home": 16,
+            "away": 3
+          },
+          "禁区外射门": {
+            "home": 6,
+            "away": 0
+          },
+          "门将扑救": {
+            "home": 1,
+            "away": 5
+          },
+          "长传": {
+            "home": 64,
+            "away": 74
+          },
+          "长传成功率": {
+            "home": 47,
+            "away": 46
+          },
+          "传中": {
+            "home": 26,
+            "away": 9
+          },
+          "传中成功率": {
+            "home": 31,
+            "away": 22
+          },
+          "过人": {
+            "home": 11,
+            "away": 14
+          },
+          "过人成功率": {
+            "home": 64,
+            "away": 50
+          },
+          "抢断": {
+            "home": 18,
+            "away": 10
+          },
+          "拦截": {
+            "home": 9,
+            "away": 10
+          },
+          "解围": {
+            "home": 27,
+            "away": 38
+          }
+        },
+        "timeline": [
+          {
+            "minute": 45,
+            "home": [],
+            "away": [
+              {
+                "player": "",
+                "icon": "HT.png",
+                "family": "half-time"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 61,
+            "home": [],
+            "away": [
+              {
+                "player": "莫伊伦",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "奥贝内",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 66,
+            "home": [],
+            "away": [
+              {
+                "player": "莫伦比",
+                "icon": "ChOxM1xGg02AL8TeAAAE1p6R8m4139.png",
+                "family": "ChOxM1xGg02A"
+              }
+            ],
+            "candidates": [
+              {
+                "side": "away",
+                "minute": 66,
+                "players": [
+                  "莫伦比"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 68,
+            "home": [],
+            "away": [
+              {
+                "player": "阿班克瓦",
+                "icon": "ChOxM1xGg02AL8TeAAAE1p6R8m4139.png",
+                "family": "ChOxM1xGg02A"
+              }
+            ],
+            "candidates": [
+              {
+                "side": "away",
+                "minute": 68,
+                "players": [
+                  "阿班克瓦"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 73,
+            "home": [
+              {
+                "player": "克拉斯尼奇",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "拉希察",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "热格罗瓦",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "扎贝尔贾",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "away": [],
+            "candidates": []
+          },
+          {
+            "minute": 80,
+            "home": [],
+            "away": [
+              {
+                "player": "伊达",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "考文垂",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "帕罗特",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "阿班克瓦",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 83,
+            "home": [
+              {
+                "player": "韦达特-穆里奇",
+                "icon": "rBUC6GcM116AdCl0AAALvuQV48E236.png",
+                "family": "rBUC6GcM116A"
+              }
+            ],
+            "away": [],
+            "candidates": [
+              {
+                "side": "home",
+                "minute": 83,
+                "players": [
+                  "韦达特-穆里奇"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 87,
+            "home": [
+              {
+                "player": "埃尔布林-奥斯马尼",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "霍扎",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "away": [],
+            "candidates": []
+          },
+          {
+            "minute": 88,
+            "home": [
+              {
+                "player": "阿斯拉尼",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "韦达特-穆里奇",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "away": [
+              {
+                "player": "欧文-埃尔丁",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "曼宁",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "伊根",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "斯凯尔斯",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 90,
+            "home": [],
+            "away": [
+              {
+                "player": "",
+                "icon": "FT.png",
+                "family": "FT"
+              }
+            ],
+            "candidates": [
+              {
+                "side": "away",
+                "minute": 90,
+                "players": []
+              }
+            ]
+          }
+        ]
+      },
+      "enrichment": {},
+      "expectation": {
+        "level": "against",
+        "favoriteSide": "away",
+        "summary": "赛果与多数人的赛前想象存在偏差，强势一方没把纸面优势转成结果。",
+        "source": "heuristic",
+        "reasons": [
+          "排名",
+          "身价"
+        ]
+      },
+      "image": {
+        "status": "pending",
+        "url": "",
+        "alt": "科索沃 vs 爱尔兰 官方社媒过程图待补充",
+        "source": "pending-webhook",
+        "postUrl": "",
+        "caption": "等待 webhook 注入官方社媒比赛过程图。"
+      },
+      "article": {
+        "title": "004：科索沃1-0爱尔兰：科索沃把冷门打成了结果",
+        "recap": "双方上半场互相试探，胜负在后程才被拉开，科索沃最终以1-0拿下结果。从数据看，爱尔兰控球43%、射门3比22、射正1比8、绝佳机会1比3，场面并不算完全被压制。",
+        "review": "赛果与多数人的赛前想象存在偏差，强势一方没把纸面优势转成结果。科索沃把有限的优势回合做成了结果，反倒是爱尔兰在领先预期或场面基础上没能把握住关键节点。",
+        "format": [
+          "标题",
+          "回顾赛果",
+          "配图",
+          "复盘"
+        ],
+        "styleProfile": "jingcai_result_rag_v1"
+      }
+    },
+    {
+      "cmpType": "soccer",
+      "tag": "周四005",
+      "tagSeq": 5,
+      "tagCode": "005",
+      "matchId": "54419019",
+      "competition": "欧国联",
+      "round": "A级联赛",
+      "kickoff": "2026-09-24 18:45:00",
+      "finishedAt": "2026-09-24 20:38:35",
+      "date": "2026-09-24",
+      "status": "Played",
+      "homeTeam": {
+        "id": "50001540",
+        "name": "葡萄牙",
+        "logo": "https://sd.qunliao.info/fastdfs3/M00/B5/7C/ChOxM1xC2PuALvwRAAAK3F_koeE108.png",
+        "rank": 7
+      },
+      "awayTeam": {
+        "id": "50002057",
+        "name": "威尔士",
+        "logo": "https://sd.qunliao.info/fastdfs3/M00/B5/80/ChOxM1xC2VGAYhOTAAAbZ1CFkQg735.png",
+        "rank": 38
+      },
+      "score": {
+        "home": 1,
+        "away": 0,
+        "halfHome": 1,
+        "halfAway": 0,
+        "penaltyHome": null,
+        "penaltyAway": null,
+        "extraHome": null,
+        "extraAway": null
+      },
+      "surfaceStats": {
+        "cornersHome": 10,
+        "cornersAway": 2,
+        "yellowHome": null,
+        "yellowAway": 1,
+        "redHome": null,
+        "redAway": null
+      },
+      "expectationSignals": {
+        "oddsHome": "",
+        "oddsDraw": "",
+        "oddsAway": "",
+        "handicapText": "",
+        "goalsText": "",
+        "tipsNum": 10
+      },
+      "raw": {
+        "scoreInfo": "",
+        "oddTip": "半(1:0) 角(10:2)",
+        "liveUrl": "https://m.dongqiudi.com/matchDetail/54419019/live"
+      },
+      "detail": {
+        "matchId": "54419019",
+        "competition": "欧国联",
+        "venue": "阿尔瓦拉德球场",
+        "weather": "晴",
+        "temperature": "26°C",
+        "attendance": null,
+        "ranks": {
+          "home": 7,
+          "away": 38
+        },
+        "marketValue": {
+          "home": 1000000000,
+          "away": 180100000
+        },
+        "stats": {
+          "开球": {
+            "home": 1,
+            "away": 0
+          },
+          "控球率": {
+            "home": 62,
+            "away": 38
+          },
+          "角球": {
+            "home": 10,
+            "away": 2
+          },
+          "射门": {
+            "home": 23,
+            "away": 5
+          },
+          "射正": {
+            "home": 5,
+            "away": 1
+          },
+          "射偏": {
+            "home": 11,
+            "away": 4
+          },
+          "被封堵": {
+            "home": 7,
+            "away": 1
+          },
+          "任意球": {
+            "home": 10,
+            "away": 12
+          },
+          "越位": {
+            "home": 3,
+            "away": 3
+          },
+          "犯规": {
+            "home": 12,
+            "away": 10
+          },
+          "黄牌": {
+            "home": 0,
+            "away": 1
+          },
+          "红牌": {
+            "home": 0,
+            "away": 0
+          },
+          "击中门框": {
+            "home": 0,
+            "away": 1
+          },
+          "预期进球(xG)": {
+            "home": 1.93,
+            "away": 0.85
+          },
+          "传球": {
+            "home": 627,
+            "away": 393
+          },
+          "传球成功率": {
+            "home": 90,
+            "away": 82
+          },
+          "绝佳机会": {
+            "home": 1,
+            "away": 3
+          },
+          "错失绝佳机会": {
+            "home": 1,
+            "away": 3
+          },
+          "禁区内射门": {
+            "home": 17,
+            "away": 5
+          },
+          "禁区外射门": {
+            "home": 6,
+            "away": 0
+          },
+          "门将扑救": {
+            "home": 0,
+            "away": 4
+          },
+          "长传": {
+            "home": 40,
+            "away": 47
+          },
+          "长传成功率": {
+            "home": 65,
+            "away": 36
+          },
+          "传中": {
+            "home": 25,
+            "away": 10
+          },
+          "传中成功率": {
+            "home": 32,
+            "away": 20
+          },
+          "过人": {
+            "home": 11,
+            "away": 8
+          },
+          "过人成功率": {
+            "home": 45,
+            "away": 38
+          },
+          "抢断": {
+            "home": 10,
+            "away": 7
+          },
+          "拦截": {
+            "home": 8,
+            "away": 9
+          },
+          "解围": {
+            "home": 15,
+            "away": 25
+          }
+        },
+        "timeline": [
+          {
+            "minute": 22,
+            "home": [
+              {
+                "player": "菲利克斯",
+                "icon": "rBUC6GcM116AdCl0AAALvuQV48E236.png",
+                "family": "rBUC6GcM116A"
+              },
+              {
+                "player": "努诺-门德斯",
+                "icon": "ChMf8FxtCcuAJuluAAAIPutkzyw449.png",
+                "family": "ChMf8FxtCcuA"
+              }
+            ],
+            "away": [],
+            "candidates": [
+              {
+                "side": "home",
+                "minute": 22,
+                "players": [
+                  "菲利克斯",
+                  "努诺-门德斯"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 45,
+            "home": [],
+            "away": [
+              {
+                "player": "",
+                "icon": "HT.png",
+                "family": "half-time"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 59,
+            "home": [
+              {
+                "player": "C罗",
+                "icon": "rBUBsmZYGiCANNp1AAAFlodTyIk351.png",
+                "family": "rBUBsmZYGiCA"
+              }
+            ],
+            "away": [],
+            "candidates": [
+              {
+                "side": "home",
+                "minute": 59,
+                "players": [
+                  "C罗"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 63,
+            "home": [],
+            "away": [
+              {
+                "player": "丹尼尔-詹姆斯",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "戴维-布鲁克斯",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 67,
+            "home": [
+              {
+                "player": "帕利尼亚",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "贡萨洛-拉莫斯",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "鲁本-内维斯",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "C罗",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "away": [],
+            "candidates": []
+          },
+          {
+            "minute": 71,
+            "home": [],
+            "away": [
+              {
+                "player": "卡班戈",
+                "icon": "ChOxM1xGg02AL8TeAAAE1p6R8m4139.png",
+                "family": "ChOxM1xGg02A"
+              },
+              {
+                "player": "迈帕姆",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "卡班戈",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 77,
+            "home": [],
+            "away": [
+              {
+                "player": "基弗-穆尔",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "索尔巴-托马斯",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "路易-库马斯",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "乔丹-詹姆斯",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 78,
+            "home": [
+              {
+                "player": "努诺-塔瓦雷斯",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "努诺-门德斯",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "away": [],
+            "candidates": []
+          },
+          {
+            "minute": 90,
+            "home": [
+              {
+                "player": "达洛特",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "若昂-内维斯",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "坎塞洛",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "布鲁诺-费尔南德斯",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "away": [
+              {
+                "player": "",
+                "icon": "FT.png",
+                "family": "FT"
+              }
+            ],
+            "candidates": []
+          }
+        ]
+      },
+      "enrichment": {},
+      "expectation": {
+        "level": "aligned",
+        "favoriteSide": "home",
+        "summary": "赛果整体仍在主流预期范围内，但兑现方式并不完全轻松。",
+        "source": "heuristic",
+        "reasons": [
+          "排名",
+          "身价"
+        ]
+      },
+      "image": {
+        "status": "pending",
+        "url": "",
+        "alt": "葡萄牙 vs 威尔士 官方社媒过程图待补充",
+        "source": "pending-webhook",
+        "postUrl": "",
+        "caption": "等待 webhook 注入官方社媒比赛过程图。"
+      },
+      "article": {
+        "title": "005：葡萄牙1-0威尔士：葡萄牙先手到位后稳住局面",
+        "recap": "葡萄牙始终把比分主动权握在手里，最终以1-0击败威尔士。从数据看，威尔士控球38%、射门5比23、射正1比5、绝佳机会3比1、还有1次击中门框，场面并不算完全被压制。",
+        "review": "赛果整体仍在主流预期范围内，但兑现方式并不完全轻松。葡萄牙一旦拿到先手，比赛管理能力就比较稳定，防线没有给威尔士连续冲击同一区域的空间。",
+        "format": [
+          "标题",
+          "回顾赛果",
+          "配图",
+          "复盘"
+        ],
+        "styleProfile": "jingcai_result_rag_v1"
+      }
+    },
+    {
+      "cmpType": "soccer",
+      "tag": "周四006 单关",
+      "tagSeq": 6,
+      "tagCode": "006",
+      "matchId": "54419020",
+      "competition": "欧国联",
+      "round": "A级联赛",
+      "kickoff": "2026-09-24 18:45:00",
+      "finishedAt": "2026-09-24 20:42:18",
+      "date": "2026-09-24",
+      "status": "Played",
+      "homeTeam": {
+        "id": "50001331",
+        "name": "荷兰",
+        "logo": "https://sd.qunliao.info/fastdfs3/M00/B5/7B/ChOxM1xC2N6AEWYMAAABPByVIVM465.png",
+        "rank": 9
+      },
+      "awayTeam": {
+        "id": "50000868",
+        "name": "德国",
+        "logo": "https://sd.qunliao.info/fastdfs3/M00/B5/77/ChOxM1xC2JGAd79VAAAAyGVvoVQ975.png",
+        "rank": 12
+      },
+      "score": {
+        "home": 1,
+        "away": 1,
+        "halfHome": 0,
+        "halfAway": 1,
+        "penaltyHome": null,
+        "penaltyAway": null,
+        "extraHome": null,
+        "extraAway": null
+      },
+      "surfaceStats": {
+        "cornersHome": 12,
+        "cornersAway": 1,
+        "yellowHome": 3,
+        "yellowAway": 1,
+        "redHome": null,
+        "redAway": null
+      },
+      "expectationSignals": {
+        "oddsHome": "",
+        "oddsDraw": "",
+        "oddsAway": "",
+        "handicapText": "",
+        "goalsText": "",
+        "tipsNum": 13
+      },
+      "raw": {
+        "scoreInfo": "",
+        "oddTip": "半(0:1) 角(12:1)",
+        "liveUrl": "https://m.dongqiudi.com/matchDetail/54419020/live"
+      },
+      "detail": {
+        "matchId": "54419020",
+        "competition": "欧国联",
+        "venue": "约翰-克鲁伊夫竞技场",
+        "weather": "局部有云",
+        "temperature": "13°C",
+        "attendance": null,
+        "ranks": {
+          "home": 9,
+          "away": 12
+        },
+        "marketValue": {
+          "home": 852000000,
+          "away": 1300000000
+        },
+        "stats": {
+          "开球": {
+            "home": 0,
+            "away": 1
+          },
+          "控球率": {
+            "home": 54,
+            "away": 46
+          },
+          "角球": {
+            "home": 12,
+            "away": 1
+          },
+          "射门": {
+            "home": 22,
+            "away": 10
+          },
+          "射正": {
+            "home": 10,
+            "away": 2
+          },
+          "射偏": {
+            "home": 6,
+            "away": 5
+          },
+          "被封堵": {
+            "home": 6,
+            "away": 3
+          },
+          "任意球": {
+            "home": 16,
+            "away": 11
+          },
+          "越位": {
+            "home": 3,
+            "away": 1
+          },
+          "犯规": {
+            "home": 11,
+            "away": 16
+          },
+          "黄牌": {
+            "home": 3,
+            "away": 1
+          },
+          "红牌": {
+            "home": 0,
+            "away": 0
+          },
+          "击中门框": {
+            "home": 1,
+            "away": 0
+          },
+          "预期进球(xG)": {
+            "home": 3.18,
+            "away": 1.45
+          },
+          "传球": {
+            "home": 409,
+            "away": 370
+          },
+          "传球成功率": {
+            "home": 85,
+            "away": 81
+          },
+          "绝佳机会": {
+            "home": 5,
+            "away": 2
+          },
+          "错失绝佳机会": {
+            "home": 4,
+            "away": 1
+          },
+          "禁区内射门": {
+            "home": 16,
+            "away": 7
+          },
+          "禁区外射门": {
+            "home": 6,
+            "away": 3
+          },
+          "门将扑救": {
+            "home": 1,
+            "away": 9
+          },
+          "长传": {
+            "home": 42,
+            "away": 53
+          },
+          "长传成功率": {
+            "home": 60,
+            "away": 47
+          },
+          "传中": {
+            "home": 28,
+            "away": 9
+          },
+          "传中成功率": {
+            "home": 39,
+            "away": 22
+          },
+          "过人": {
+            "home": 11,
+            "away": 8
+          },
+          "过人成功率": {
+            "home": 45,
+            "away": 13
+          },
+          "抢断": {
+            "home": 13,
+            "away": 12
+          },
+          "拦截": {
+            "home": 10,
+            "away": 5
+          },
+          "解围": {
+            "home": 24,
+            "away": 28
+          }
+        },
+        "timeline": [
+          {
+            "minute": 14,
+            "home": [
+              {
+                "player": "范戴克",
+                "icon": "rBUBsmZYGiCANNp1AAAFlodTyIk351.png",
+                "family": "rBUBsmZYGiCA"
+              }
+            ],
+            "away": [],
+            "candidates": [
+              {
+                "side": "home",
+                "minute": 14,
+                "players": [
+                  "范戴克"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 22,
+            "home": [
+              {
+                "player": "昆滕-廷贝尔",
+                "icon": "ChOxM1xGg02AL8TeAAAE1p6R8m4139.png",
+                "family": "ChOxM1xGg02A"
+              }
+            ],
+            "away": [],
+            "candidates": [
+              {
+                "side": "home",
+                "minute": 22,
+                "players": [
+                  "昆滕-廷贝尔"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 24,
+            "home": [
+              {
+                "player": "范赫克",
+                "icon": "ChOxM1xGg02AL8TeAAAE1p6R8m4139.png",
+                "family": "ChOxM1xGg02A"
+              }
+            ],
+            "away": [],
+            "candidates": [
+              {
+                "side": "home",
+                "minute": 24,
+                "players": [
+                  "范赫克"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 30,
+            "home": [],
+            "away": [
+              {
+                "player": "埃布努塔利布",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "哈弗茨",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 32,
+            "home": [],
+            "away": [
+              {
+                "player": "费利克斯-恩梅加",
+                "icon": "rBUC6GcM116AdCl0AAALvuQV48E236.png",
+                "family": "rBUC6GcM116A"
+              },
+              {
+                "player": "阿德耶米",
+                "icon": "ChMf8FxtCcuAJuluAAAIPutkzyw449.png",
+                "family": "ChMf8FxtCcuA"
+              }
+            ],
+            "candidates": [
+              {
+                "side": "away",
+                "minute": 32,
+                "players": [
+                  "费利克斯-恩梅加",
+                  "阿德耶米"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 35,
+            "home": [
+              {
+                "player": "梅尔丁克",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "布罗比",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "away": [],
+            "candidates": []
+          },
+          {
+            "minute": 45,
+            "home": [],
+            "away": [
+              {
+                "player": "",
+                "icon": "HT.png",
+                "family": "half-time"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 57,
+            "home": [
+              {
+                "player": "乔伊-费尔曼",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "昆滕-廷贝尔",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "away": [],
+            "candidates": []
+          },
+          {
+            "minute": 64,
+            "home": [],
+            "away": [
+              {
+                "player": "菲里希",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "施塔赫",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "沙德",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "费利克斯-恩梅加",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 68,
+            "home": [],
+            "away": [
+              {
+                "player": "阿米里",
+                "icon": "ChOxM1xGg02AL8TeAAAE1p6R8m4139.png",
+                "family": "ChOxM1xGg02A"
+              }
+            ],
+            "candidates": [
+              {
+                "side": "away",
+                "minute": 68,
+                "players": [
+                  "阿米里"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 69,
+            "home": [
+              {
+                "player": "范戴克",
+                "icon": "ChOxM1xGg02AL8TeAAAE1p6R8m4139.png",
+                "family": "ChOxM1xGg02A"
+              }
+            ],
+            "away": [],
+            "candidates": [
+              {
+                "side": "home",
+                "minute": 69,
+                "players": [
+                  "范戴克"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 80,
+            "home": [],
+            "away": [
+              {
+                "player": "恩格尔哈特",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "格纳布里",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "阿米里",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "阿德耶米",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 83,
+            "home": [
+              {
+                "player": "蒂尔",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "鲁本-范博梅尔",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "赖因德斯",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "萨默维尔",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "away": [],
+            "candidates": []
+          },
+          {
+            "minute": 90,
+            "home": [
+              {
+                "player": "加克波",
+                "icon": "rBUC6GcM116AdCl0AAALvuQV48E236.png",
+                "family": "rBUC6GcM116A"
+              },
+              {
+                "player": "鲁本-范博梅尔",
+                "icon": "ChMf8FxtCcuAJuluAAAIPutkzyw449.png",
+                "family": "ChMf8FxtCcuA"
+              }
+            ],
+            "away": [
+              {
+                "player": "",
+                "icon": "FT.png",
+                "family": "FT"
+              }
+            ],
+            "candidates": []
+          }
+        ]
+      },
+      "enrichment": {},
+      "expectation": {
+        "level": "mixed",
+        "favoriteSide": "home",
+        "summary": "结果没有完全兑现主流预期，优势一方只打出了部分场面内容。",
+        "source": "heuristic",
+        "reasons": [
+          "排名",
+          "身价"
+        ]
+      },
+      "image": {
+        "status": "pending",
+        "url": "",
+        "alt": "荷兰 vs 德国 官方社媒过程图待补充",
+        "source": "pending-webhook",
+        "postUrl": "",
+        "caption": "等待 webhook 注入官方社媒比赛过程图。"
+      },
+      "article": {
+        "title": "006：荷兰1-1德国：场面拉扯到最后仍未分胜负",
+        "recap": "荷兰与德国鏖战至终场仍未分出高下，半场0-1，全场1-1。",
+        "review": "结果没有完全兑现主流预期，优势一方只打出了部分场面内容。双方更像是在互相限制而非持续压上，临门一脚和禁区内的处理都没能把场面差异真正放大。",
+        "format": [
+          "标题",
+          "回顾赛果",
+          "配图",
+          "复盘"
+        ],
+        "styleProfile": "jingcai_result_rag_v1"
+      }
+    },
+    {
+      "cmpType": "soccer",
+      "tag": "周四007",
+      "tagSeq": 7,
+      "tagCode": "007",
+      "matchId": "54419021",
+      "competition": "欧国联",
+      "round": "A级联赛",
+      "kickoff": "2026-09-24 18:45:00",
+      "finishedAt": "2026-09-24 20:41:55",
+      "date": "2026-09-24",
+      "status": "Played",
+      "homeTeam": {
+        "id": "50004909",
+        "name": "塞尔维亚",
+        "logo": "https://sd.qunliao.info/fastdfs3/M00/B5/87/ChOxM1xC2iSAWoJLAAANi61d2EA772.png",
+        "rank": 40
+      },
+      "awayTeam": {
+        "id": "50000909",
+        "name": "希腊",
+        "logo": "https://sd.qunliao.info/fastdfs3/M00/B5/78/ChOxM1xC2JWAH_xRAAACpdUOWCw533.png",
+        "rank": 46
+      },
+      "score": {
+        "home": 1,
+        "away": 2,
+        "halfHome": 1,
+        "halfAway": 0,
+        "penaltyHome": null,
+        "penaltyAway": null,
+        "extraHome": null,
+        "extraAway": null
+      },
+      "surfaceStats": {
+        "cornersHome": 2,
+        "cornersAway": 6,
+        "yellowHome": 2,
+        "yellowAway": 1,
+        "redHome": null,
+        "redAway": null
+      },
+      "expectationSignals": {
+        "oddsHome": "",
+        "oddsDraw": "",
+        "oddsAway": "",
+        "handicapText": "",
+        "goalsText": "",
+        "tipsNum": 7
+      },
+      "raw": {
+        "scoreInfo": "",
+        "oddTip": "半(1:0) 角(2:6)",
+        "liveUrl": "https://m.dongqiudi.com/matchDetail/54419021/live"
+      },
+      "detail": {
+        "matchId": "54419021",
+        "competition": "欧国联",
+        "venue": "红星体育场",
+        "weather": "阴",
+        "temperature": "14°C",
+        "attendance": null,
+        "ranks": {
+          "home": 40,
+          "away": 46
+        },
+        "marketValue": {
+          "home": 289600000,
+          "away": 320600000
+        },
+        "stats": {
+          "开球": {
+            "home": 1,
+            "away": 0
+          },
+          "控球率": {
+            "home": 39,
+            "away": 61
+          },
+          "角球": {
+            "home": 2,
+            "away": 6
+          },
+          "射门": {
+            "home": 9,
+            "away": 26
+          },
+          "射正": {
+            "home": 4,
+            "away": 9
+          },
+          "射偏": {
+            "home": 4,
+            "away": 10
+          },
+          "被封堵": {
+            "home": 1,
+            "away": 7
+          },
+          "任意球": {
+            "home": 7,
+            "away": 11
+          },
+          "越位": {
+            "home": 2,
+            "away": 2
+          },
+          "犯规": {
+            "home": 11,
+            "away": 7
+          },
+          "黄牌": {
+            "home": 2,
+            "away": 1
+          },
+          "红牌": {
+            "home": 0,
+            "away": 0
+          },
+          "击中门框": {
+            "home": 1,
+            "away": 1
+          },
+          "预期进球(xG)": {
+            "home": 1.42,
+            "away": 2.5
+          },
+          "传球": {
+            "home": 378,
+            "away": 588
+          },
+          "传球成功率": {
+            "home": 85,
+            "away": 89
+          },
+          "绝佳机会": {
+            "home": 4,
+            "away": 2
+          },
+          "错失绝佳机会": {
+            "home": 3,
+            "away": 1
+          },
+          "禁区内射门": {
+            "home": 7,
+            "away": 16
+          },
+          "禁区外射门": {
+            "home": 2,
+            "away": 10
+          },
+          "门将扑救": {
+            "home": 7,
+            "away": 3
+          },
+          "长传": {
+            "home": 42,
+            "away": 47
+          },
+          "长传成功率": {
+            "home": 60,
+            "away": 53
+          },
+          "传中": {
+            "home": 12,
+            "away": 25
+          },
+          "传中成功率": {
+            "home": 33,
+            "away": 16
+          },
+          "过人": {
+            "home": 10,
+            "away": 19
+          },
+          "过人成功率": {
+            "home": 50,
+            "away": 47
+          },
+          "抢断": {
+            "home": 17,
+            "away": 13
+          },
+          "拦截": {
+            "home": 8,
+            "away": 3
+          },
+          "解围": {
+            "home": 33,
+            "away": 14
+          }
+        },
+        "timeline": [
+          {
+            "minute": 4,
+            "home": [
+              {
+                "player": "安德里亚-日夫科维奇",
+                "icon": "rBUC6GcM116AdCl0AAALvuQV48E236.png",
+                "family": "rBUC6GcM116A"
+              },
+              {
+                "player": "塔迪奇",
+                "icon": "ChMf8FxtCcuAJuluAAAIPutkzyw449.png",
+                "family": "ChMf8FxtCcuA"
+              }
+            ],
+            "away": [],
+            "candidates": []
+          },
+          {
+            "minute": 45,
+            "home": [],
+            "away": [
+              {
+                "player": "",
+                "icon": "HT.png",
+                "family": "half-time"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 46,
+            "home": [
+              {
+                "player": "萨萨-卢基奇",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "米哈伊洛-茨韦特科维奇",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "away": [],
+            "candidates": []
+          },
+          {
+            "minute": 63,
+            "home": [
+              {
+                "player": "塔迪奇",
+                "icon": "ChOxM1xGg02AL8TeAAAE1p6R8m4139.png",
+                "family": "ChOxM1xGg02A"
+              }
+            ],
+            "away": [
+              {
+                "player": "约安尼季斯",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "科斯图拉斯",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 71,
+            "home": [
+              {
+                "player": "阿列克萨-泰尔齐奇",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "德扬-约韦利奇",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "科斯蒂奇",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "约维奇",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "away": [],
+            "candidates": []
+          },
+          {
+            "minute": 72,
+            "home": [
+              {
+                "player": "阿列克萨-泰尔齐奇",
+                "icon": "ChOxM1xGg02AL8TeAAAE1p6R8m4139.png",
+                "family": "ChOxM1xGg02A"
+              }
+            ],
+            "away": [],
+            "candidates": [
+              {
+                "side": "home",
+                "minute": 72,
+                "players": [
+                  "阿列克萨-泰尔齐奇"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 74,
+            "home": [],
+            "away": [
+              {
+                "player": "措利斯",
+                "icon": "rBUC6GcM116AdCl0AAALvuQV48E236.png",
+                "family": "rBUC6GcM116A"
+              },
+              {
+                "player": "帕夫利季斯",
+                "icon": "ChMf8FxtCcuAJuluAAAIPutkzyw449.png",
+                "family": "ChMf8FxtCcuA"
+              },
+              {
+                "player": "安德烈亚斯-泰泰",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "杜维卡斯",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "帕夫利季斯",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "卡雷察斯",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 81,
+            "home": [
+              {
+                "player": "古德利",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "尼古拉-西米奇",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "away": [],
+            "candidates": []
+          },
+          {
+            "minute": 83,
+            "home": [],
+            "away": [
+              {
+                "player": "扎菲里斯",
+                "icon": "ChOxM1xGg02AL8TeAAAE1p6R8m4139.png",
+                "family": "ChOxM1xGg02A"
+              }
+            ],
+            "candidates": [
+              {
+                "side": "away",
+                "minute": 83,
+                "players": [
+                  "扎菲里斯"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 90,
+            "home": [
+              {
+                "player": "苏卡切夫",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "塔迪奇",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "away": [
+              {
+                "player": "米凯利迪斯",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "安德鲁索斯",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "马夫罗帕诺斯",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "扎菲里斯",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "杜维卡斯",
+                "icon": "rBUC6GcM116AdCl0AAALvuQV48E236.png",
+                "family": "rBUC6GcM116A"
+              },
+              {
+                "player": "齐米卡斯",
+                "icon": "ChMf8FxtCcuAJuluAAAIPutkzyw449.png",
+                "family": "ChMf8FxtCcuA"
+              },
+              {
+                "player": "",
+                "icon": "FT.png",
+                "family": "FT"
+              }
+            ],
+            "candidates": []
+          }
+        ]
+      },
+      "enrichment": {},
+      "expectation": {
+        "level": "against",
+        "favoriteSide": "home",
+        "summary": "赛果与多数人的赛前想象存在偏差，强势一方没把纸面优势转成结果。",
+        "source": "heuristic",
+        "reasons": [
+          "排名"
+        ]
+      },
+      "image": {
+        "status": "pending",
+        "url": "",
+        "alt": "塞尔维亚 vs 希腊 官方社媒过程图待补充",
+        "source": "pending-webhook",
+        "postUrl": "",
+        "caption": "等待 webhook 注入官方社媒比赛过程图。"
+      },
+      "article": {
+        "title": "007：塞尔维亚1-2希腊：希腊后程连续发力完成逆转",
+        "recap": "希腊在半场不占优的情况下，下半场连续把握关键回合，最终以1-2翻盘。从数据看，塞尔维亚控球39%、射门9比26、射正4比9、绝佳机会4比2、还有1次击中门框，场面并不算完全被压制。",
+        "review": "赛果与多数人的赛前想象存在偏差，强势一方没把纸面优势转成结果。希腊的价值体现在后程调整和禁区冲击，比分落后后没有乱节奏，反而把对手的防守波动持续放大。",
+        "format": [
+          "标题",
+          "回顾赛果",
+          "配图",
+          "复盘"
+        ],
+        "styleProfile": "jingcai_result_rag_v1"
+      }
+    },
+    {
+      "cmpType": "soccer",
+      "tag": "周四008 单关",
+      "tagSeq": 8,
+      "tagCode": "008",
+      "matchId": "54419022",
+      "competition": "欧国联",
+      "round": "A级联赛",
+      "kickoff": "2026-09-24 18:45:00",
+      "finishedAt": "2026-09-24 20:39:58",
+      "date": "2026-09-24",
+      "status": "Played",
+      "homeTeam": {
+        "id": "50001389",
+        "name": "挪威",
+        "logo": "https://sd.qunliao.info/fastdfs3/M00/B5/7B/ChOxM1xC2OaAYv00AAABrhQP22I466.png",
+        "rank": 19
+      },
+      "awayTeam": {
+        "id": "50000496",
+        "name": "丹麦",
+        "logo": "https://sd.qunliao.info/fastdfs3/M00/B5/75/ChOxM1xC2FGAU4XgAAABUo4hnUQ558.png",
+        "rank": 21
+      },
+      "score": {
+        "home": 3,
+        "away": 2,
+        "halfHome": 2,
+        "halfAway": 1,
+        "penaltyHome": null,
+        "penaltyAway": null,
+        "extraHome": null,
+        "extraAway": null
+      },
+      "surfaceStats": {
+        "cornersHome": 4,
+        "cornersAway": 8,
+        "yellowHome": null,
+        "yellowAway": 3,
+        "redHome": 1,
+        "redAway": null
+      },
+      "expectationSignals": {
+        "oddsHome": "",
+        "oddsDraw": "",
+        "oddsAway": "",
+        "handicapText": "",
+        "goalsText": "",
+        "tipsNum": 13
+      },
+      "raw": {
+        "scoreInfo": "",
+        "oddTip": "半(2:1) 角(4:8)",
+        "liveUrl": "https://m.dongqiudi.com/matchDetail/54419022/live"
+      },
+      "detail": {
+        "matchId": "54419022",
+        "competition": "欧国联",
+        "venue": "乌勒瓦尔球场",
+        "weather": "局部有云",
+        "temperature": "12°C",
+        "attendance": null,
+        "ranks": {
+          "home": 19,
+          "away": 21
+        },
+        "marketValue": {
+          "home": 618100000,
+          "away": 426000000
+        },
+        "stats": {
+          "开球": {
+            "home": 0,
+            "away": 1
+          },
+          "控球率": {
+            "home": 49,
+            "away": 51
+          },
+          "角球": {
+            "home": 4,
+            "away": 8
+          },
+          "射门": {
+            "home": 13,
+            "away": 13
+          },
+          "射正": {
+            "home": 7,
+            "away": 7
+          },
+          "射偏": {
+            "home": 3,
+            "away": 4
+          },
+          "被封堵": {
+            "home": 3,
+            "away": 2
+          },
+          "任意球": {
+            "home": 10,
+            "away": 14
+          },
+          "越位": {
+            "home": 1,
+            "away": 2
+          },
+          "犯规": {
+            "home": 14,
+            "away": 10
+          },
+          "黄牌": {
+            "home": 0,
+            "away": 3
+          },
+          "红牌": {
+            "home": 1,
+            "away": 0
+          },
+          "击中门框": {
+            "home": 0,
+            "away": 1
+          },
+          "预期进球(xG)": {
+            "home": 1.41,
+            "away": 1.09
+          },
+          "传球": {
+            "home": 509,
+            "away": 523
+          },
+          "传球成功率": {
+            "home": 88,
+            "away": 88
+          },
+          "绝佳机会": {
+            "home": 1,
+            "away": 1
+          },
+          "错失绝佳机会": {
+            "home": 1,
+            "away": 0
+          },
+          "禁区内射门": {
+            "home": 11,
+            "away": 7
+          },
+          "禁区外射门": {
+            "home": 2,
+            "away": 6
+          },
+          "门将扑救": {
+            "home": 5,
+            "away": 4
+          },
+          "长传": {
+            "home": 45,
+            "away": 34
+          },
+          "长传成功率": {
+            "home": 42,
+            "away": 53
+          },
+          "传中": {
+            "home": 7,
+            "away": 19
+          },
+          "传中成功率": {
+            "home": 14,
+            "away": 21
+          },
+          "过人": {
+            "home": 24,
+            "away": 12
+          },
+          "过人成功率": {
+            "home": 33,
+            "away": 67
+          },
+          "抢断": {
+            "home": 13,
+            "away": 24
+          },
+          "拦截": {
+            "home": 8,
+            "away": 11
+          },
+          "解围": {
+            "home": 18,
+            "away": 22
+          }
+        },
+        "timeline": [
+          {
+            "minute": 14,
+            "home": [
+              {
+                "player": "奥斯卡-鲍勃",
+                "icon": "rBUC6GcM116AdCl0AAALvuQV48E236.png",
+                "family": "rBUC6GcM116A"
+              },
+              {
+                "player": "厄德高",
+                "icon": "ChMf8FxtCcuAJuluAAAIPutkzyw449.png",
+                "family": "ChMf8FxtCcuA"
+              }
+            ],
+            "away": [],
+            "candidates": [
+              {
+                "side": "home",
+                "minute": 14,
+                "players": [
+                  "奥斯卡-鲍勃",
+                  "厄德高"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 18,
+            "home": [
+              {
+                "player": "哈兰德",
+                "icon": "rBUC6GcM116AdCl0AAALvuQV48E236.png",
+                "family": "rBUC6GcM116A"
+              },
+              {
+                "player": "努萨",
+                "icon": "ChMf8FxtCcuAJuluAAAIPutkzyw449.png",
+                "family": "ChMf8FxtCcuA"
+              }
+            ],
+            "away": [],
+            "candidates": [
+              {
+                "side": "home",
+                "minute": 18,
+                "players": [
+                  "哈兰德",
+                  "努萨"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 25,
+            "home": [],
+            "away": [
+              {
+                "player": "达姆斯高",
+                "icon": "rBUC6GcM116AdCl0AAALvuQV48E236.png",
+                "family": "rBUC6GcM116A"
+              }
+            ],
+            "candidates": [
+              {
+                "side": "away",
+                "minute": 25,
+                "players": [
+                  "达姆斯高"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 38,
+            "home": [],
+            "away": [
+              {
+                "player": "拉斯穆斯-克里斯滕森",
+                "icon": "ChOxM1xGg02AL8TeAAAE1p6R8m4139.png",
+                "family": "ChOxM1xGg02A"
+              }
+            ],
+            "candidates": [
+              {
+                "side": "away",
+                "minute": 38,
+                "players": [
+                  "拉斯穆斯-克里斯滕森"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 45,
+            "home": [],
+            "away": [
+              {
+                "player": "",
+                "icon": "HT.png",
+                "family": "half-time"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 60,
+            "home": [],
+            "away": [
+              {
+                "player": "霍伊伦",
+                "icon": "rBUC6GcM116AdCl0AAALvuQV48E236.png",
+                "family": "rBUC6GcM116A"
+              }
+            ],
+            "candidates": [
+              {
+                "side": "away",
+                "minute": 60,
+                "players": [
+                  "霍伊伦"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 66,
+            "home": [
+              {
+                "player": "戴维-沃尔费",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "谢尔德鲁普",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "奥斯高",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "奥尔斯内斯",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "帕特里克-贝格",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "奥斯卡-鲍勃",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "away": [],
+            "candidates": []
+          },
+          {
+            "minute": 68,
+            "home": [
+              {
+                "player": "戴维-沃尔费",
+                "icon": "ChOxM1xGg02AL8TeAAAE1p6R8m4139.png",
+                "family": "ChOxM1xGg02A"
+              }
+            ],
+            "away": [],
+            "candidates": [
+              {
+                "side": "home",
+                "minute": 68,
+                "players": [
+                  "戴维-沃尔费"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 70,
+            "home": [],
+            "away": [
+              {
+                "player": "多古",
+                "icon": "ChOxM1xGg02AL8TeAAAE1p6R8m4139.png",
+                "family": "ChOxM1xGg02A"
+              }
+            ],
+            "candidates": [
+              {
+                "side": "away",
+                "minute": 70,
+                "players": [
+                  "多古"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 74,
+            "home": [
+              {
+                "player": "哈兰德",
+                "icon": "rBUC6GcM116AdCl0AAALvuQV48E236.png",
+                "family": "rBUC6GcM116A"
+              },
+              {
+                "player": "厄德高",
+                "icon": "ChMf8FxtCcuAJuluAAAIPutkzyw449.png",
+                "family": "ChMf8FxtCcuA"
+              }
+            ],
+            "away": [],
+            "candidates": [
+              {
+                "side": "home",
+                "minute": 74,
+                "players": [
+                  "哈兰德",
+                  "厄德高"
+                ]
+              }
+            ]
+          },
+          {
+            "minute": 75,
+            "home": [],
+            "away": [
+              {
+                "player": "比斯特鲁普",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "伊萨克森",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "弗罗霍尔特",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "多古",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 82,
+            "home": [],
+            "away": [
+              {
+                "player": "卡斯帕-霍",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "格伦贝克",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "霍伊伦",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              },
+              {
+                "player": "达姆斯高",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 88,
+            "home": [],
+            "away": [
+              {
+                "player": "托马斯-约恩森",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "莫滕-尤尔曼德",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "candidates": []
+          },
+          {
+            "minute": 89,
+            "home": [
+              {
+                "player": "索尔茨维特",
+                "icon": "rBUBsmcM2P2ARq6KAAAKs2dynu4257.png",
+                "family": "rBUBsmcM2P2A"
+              },
+              {
+                "player": "努萨",
+                "icon": "rBUBsmcM2ROAah4qAAAK1pvVCc4786.png",
+                "family": "rBUBsmcM2ROA"
+              }
+            ],
+            "away": [],
+            "candidates": []
+          },
+          {
+            "minute": 90,
+            "home": [
+              {
+                "player": "戴维-沃尔费",
+                "icon": "rBUC6GcM2SiAIun8AAADLFMWSvE755.png",
+                "family": "rBUC6GcM2SiA"
+              }
+            ],
+            "away": [
+              {
+                "player": "伊萨克森",
+                "icon": "ChOxM1xGg02AL8TeAAAE1p6R8m4139.png",
+                "family": "ChOxM1xGg02A"
+              },
+              {
+                "player": "",
+                "icon": "FT.png",
+                "family": "FT"
+              }
+            ],
+            "candidates": []
+          }
+        ]
+      },
+      "enrichment": {},
+      "expectation": {
+        "level": "aligned",
+        "favoriteSide": "home",
+        "summary": "赛果整体仍在主流预期范围内，但兑现方式并不完全轻松。",
+        "source": "heuristic",
+        "reasons": [
+          "身价"
+        ]
+      },
+      "image": {
+        "status": "pending",
+        "url": "",
+        "alt": "挪威 vs 丹麦 官方社媒过程图待补充",
+        "source": "pending-webhook",
+        "postUrl": "",
+        "caption": "等待 webhook 注入官方社媒比赛过程图。"
+      },
+      "article": {
+        "title": "008：挪威3-2丹麦：挪威靠效率掌握节奏",
+        "recap": "挪威上半场先手到位，后程又补上一击，最终以3-2收下比赛。从数据看，丹麦控球51%、射门13比13、射正7比7、绝佳机会1比1、还有1次击中门框，场面并不算完全被压制。",
+        "review": "赛果整体仍在主流预期范围内，但兑现方式并不完全轻松。挪威赢在先手和终结效率，领先后把比赛拖进自己熟悉的节奏；丹麦虽然数据不差，但高质量机会没能连续兑现。",
+        "format": [
+          "标题",
+          "回顾赛果",
+          "配图",
+          "复盘"
+        ],
+        "styleProfile": "jingcai_result_rag_v1"
+      }
+    }
+  ]
+}
