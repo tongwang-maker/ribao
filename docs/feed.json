@@ -1,7 +1,12 @@
 {
-  "generatedAt": "2026-10-07T09:36:07.942Z",
-  "latestDate": "2026-10-06",
+  "generatedAt": "2026-10-08T09:46:35.494Z",
+  "latestDate": "2026-10-07",
   "reports": [
+    {
+      "date": "2026-10-07",
+      "count": 6,
+      "href": "/reports/2026-10-07/"
+    },
     {
       "date": "2026-10-06",
       "count": 12,
